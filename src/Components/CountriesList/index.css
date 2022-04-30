@@ -1,0 +1,54 @@
+.countries-list-container {
+  width: 90%;
+  margin: auto;
+  padding: 12px;
+  color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* .countries-container {
+  height: 50vh;
+} */
+
+.countries-list {
+  list-style-type: none;
+  padding: 0px;
+  height: 320px;
+  overflow-y: scroll;
+  border-radius: 8px;
+  border: 1px solid #f8fafc90;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1f1f2f;
+  border-top: 1px solid #f8fafc30;
+  border-bottom: 1px solid #f8fafc30;
+  padding: 4px 25px;
+}
+.visit-button {
+  background-color: #3b82f6;
+  border: none;
+  color: #ffffff;
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 60px;
+  height: 30px;
+}
+.visited-countries-container {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.visited-country-text {
+  color: #94a3b8;
+}
+.empty-list-heading {
+  color: #fff;
+}

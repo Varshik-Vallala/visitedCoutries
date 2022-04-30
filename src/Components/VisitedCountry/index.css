@@ -1,0 +1,25 @@
+.country-item {
+  margin-left: 8px;
+  margin-top: 8px;
+}
+.country-image {
+  height: 150px;
+  width: 250px;
+}
+.country-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1f1f2f;
+  padding: 0 12px;
+  color: #f1f5f9;
+}
+
+.remove-button {
+  background: transparent;
+  border: 1px solid #f1f5f9;
+  color: #f1f5f9;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
